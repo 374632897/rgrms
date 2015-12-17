@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	
+	<meta name="keywords" content="卡迪诺,卡迪诺科技贸易,睿谷,贝特莱博瑞,核科学,核技术,核测量">
+	<meta name="description" content="RGRMS-核测量技术的领跑者">
+	<title>RGRMS-核测量技术的领跑者</title>
+	<link rel="stylesheet" href="index.css">
+	<link rel="shortcut icon" href="image/r.png">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<script src="js/jquery-1.11.3.min.js" charset="UTF-8"></script>
+	<style>
+	/*首页图片轮播、三角形*/
+	.small_div h1{
+		font-size: 16px;
+		font-weight: normal;
+		height: 50px;
+		margin-left: 100px;
+		line-height: 50px;
+		color: gray;
+		font-family: "Microsoft Yahei";
+		
+		transition:all ease-out 0.3s;
+	}
+	.small_div{
+		position: relative;
+		background: url(image/small_bg.gif) repeat-y left top;
+	}
+	.sanjiao{
+		position: absolute;
+		display: inline-block;
+		left: -43px;
+		top: 50%;
+		/*若是不将宽高设置为0，则在IE7下会显示为梯形*/
+		width: 0;
+		height: 0;
+		margin-top: -32px;
+		border-right:25px solid white;
+		border-top: 22px solid transparent;
+		border-bottom: 22px solid transparent;
+		opacity: 0;
+		filter:alpha(opacity:0);
+		transition:all ease-in 0.2s;
+
+	}
+	.small_div:hover .sanjiao{
+		opacity: 1;
+		filter:alpha(opacity:100);
+		color: blue;
+	}
+	.small_div:hover h1{
+		font-size: 145%;
+	}
+	</style>
+</head>
+<body>
+
+	<div id="header">
+		<div class="header">
+			<div class="logo">
+				<div class="left">
+					<img src="image/logo.jpg" alt="RGRMS">
+				</div>
+				<div class="right">
+					<a href="#"><img src="image/change_zw.jpg" alt=""></a>
+					<a href="#"><img src="image/change_Eng.jpg" alt=""></a>
+				</div>
+			</div>
+			<!-- 导航 -->
+			<div class="nav" id="nav">
+				<ul>
+					<li><a href="#" class="nav_1"><img src="image/nav_1.jpg" alt=""></a></li>
+					<li><a href="product.html" class="nav_2"><img src="image/nav_2.jpg" alt=""></a></li>
+					<li><a href="skill_spt.html" class="nav_3"><img src="image/nav_3.jpg" alt=""></a></li>
+					<li><a href="sale.html" class="nav_4"><img src="image/nav_4.jpg" alt=""></a></li>
+					<li><a href="hr.html" class="nav_5"><img src="image/nav_5.jpg" alt=""></a></li>
+					<li><a href="news.html" class="nav_6"><img src="image/nav_6.jpg" alt=""></a></li>
+					<li><a href="contact_us.html" class="nav_7"><img src="image/nav_7.jpg" alt=""></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="container">
+		<div class="flash">
+			<div class="main" id="main">
+				<img id="picBox" class="picBox" src="image/1.jpg" alt="" >
+				<!-- <img src="image/20130104140952442.gif" alt="">
+				<img src="image/20130313170241647.jpg" alt="">
+				<img src="image/20130313170319986.jpg" alt=""> -->
+			</div>
+			<div class="side" id="small_div">
+				<div class="small_div" >
+					<img class="small_nav" src="image/1.jpg" alt="">
+					<h1>移动式放射性监测系统</h1>
+					<span class="sanjiao"></span>
+				</div>
+				<div class="small_div">
+					<img class="small_nav" src="image/2.jpg" alt="">
+					<h1>移动式土壤样品实验室</h1>
+					<span class="sanjiao"></span>
+				</div>
+				<div class="small_div">
+					<img class="small_nav" src="image/3.jpg" alt="">
+					<h1>移动式γ-射线成像系统</h1>
+					<span class="sanjiao"></span>
+				</div>
+				<div class="small_div">
+					<img class="small_nav" src="image/4.jpg" alt="">
+					<h1>移动式放射性监测系统</h1>
+					<span class="sanjiao"></span>
+				</div>
+			</div>
+		</div>
+		<div class="intro">
+			<div class="com_profile">
+				<h3>公司简介</h3>
+				<p>卡迪诺科技贸易（北京）有限公司成立于2004年，注册资金2000万元。现有员工87人，中高级核物理专业人员17人，获得ISO9001质量体系认证、辐射安全许可认证、CMC 认证、中核集团合格...</p>
+				<a href="contact_us.html" class="more_1"><img src="image/more.gif" alt="readmore"></a>
+			</div>
+			<div class="product">
+				<h3>新产品</h3>
+				<ul>
+						<li><a href="#">反宇宙射线超低本...</a></li>
+						<li><a href="#">水体中γ放射性连...</a></li>
+						<li><a href="#">RG-460 车载辐射监..</a></li>
+						<li><a href="#">数字化区域监测系统</a></li>
+						<li><a href="#">辐射环境自动监测站</a></li>
+						<li><a href="#" title="海洋辐射监测网络系统">海洋辐射监测网络系..</a></li>
+						<li><a href="#" title="">RG-900AU放射性核. </a></li>
+					</ul>
+				
+				<a href="product.html" class="more_2"><img src="image/more.gif" alt="readmore"></a>
+			</div>
+			
+			<div>
+				<h3>在线计算</h3>
+				<ul id="calibrt">
+					<li class="calibrt"><a href="#">衰变与活度转换计算器</a></li>
+					<li class="calibrt"><a href="#">智能铀工程计算器</a></li>
+					<li class="calibrt"><a href="#">保健物理计算器</a></li>
+					<li class="calibrt"><a href="#">屏蔽效果计算器</a></li>
+					<li class="calibrt"><a href="#">放射性计算器</a></li>
+					<!-- <li class="calibrt"><a href="#">辐射专业计算器</a></li> -->
+				</ul>
+				<!-- <a href="#"><img src="image/more.gif" alt="readmore"></a> -->
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<span>版权所有：卡迪诺科技贸易（北京）有限公司 & 卡迪诺科技（北京）有限公司 地址：北京市东城区北三环东路36号环球贸易中心B座810室</span>
+	</div>
+	<script src="index.js" type="text/javascript" charset="UTF-8"></script>
+	<script src="js/index-nav.js" charset="UTF-8"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>RGRMS</title>
+	<link rel="stylesheet" href="index.css">
+	<script src="js/jquery-1.11.3.min.js" charset="UTF-8"></script>
+</head>
+<body>
+
+	<div id="header">
+		<div class="header">
+			<div class="logo">
+				<div class="left">
+					<img src="image/logo.jpg" alt="RGRMS">
+				</div>
+				<div class="right">
+					<a href="#"><img src="image/change_zw.jpg" alt=""></a>
+					<a href="#"><img src="image/change_Eng.jpg" alt=""></a>
+				</div>
+			</div>
+			<div class="nav" id="nav">
+				<ul>
+					<li><a href="index.html" class="nav_1"><img src="image/nav_1.jpg" alt=""></a></li>
+					<li><a href="product.html" class="nav_2"><img src="image/nav_2.jpg" alt=""></a></li>
+					<li><a href="skill_spt.html" class="nav_3"><img src="image/nav_3.jpg" alt=""></a></li>
+					<li><a href="sale.html" class="nav_4"><img src="image/nav_4.jpg" alt=""></a></li>
+					<li><a href="hr.html" class="nav_5"><img src="image/nav_5.jpg" alt=""></a></li>
+					<li><a href="news.html" class="nav_6"><img src="image/nav_6.jpg" alt=""></a></li>
+					<li><a href="contact_us.html" class="nav_7"><img src="image/nav_7.jpg" alt=""></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="container">
+		<div class="c_left">
+			<h3>联系我们</h3>
+			<ul>	
+				<li><a href="#">&gt; 卡迪诺公司</a></li>
+				<li><a href="#">&gt; 公司简介</a></li>
+				<li><a href="btlbr.html" class="btlbr">&gt; 贝特莱博瑞技术检测公司</a></li>
+				<li><a href="#">&gt; 资质荣誉</a></li>
+			</ul>
+		</div>
+		<div class="c_right">
+		<img src="image/us.gif" alt="">
+		<div class="kadinuo">
+			<p>卡迪诺科技贸易（北京）有限公司成立于2004年，注册资金2000万元。现有员工87人，中高级核物理专业人员17人，获得ISO9001质量体系认证、辐射安全许可认证、CMC 认证、中核集团合格供应商认证、诚信认证、2012年度科学技术奖等多项证书。</p>
+			<p>多年来我们致力于放射性测量仪器和系统的引进、推广、服务；经过全体员工的不懈努力，公司现已发展成为国内首屈一指，集代理、研发、生产、销售和服务为一体的放射性测量仪器专业设备及服务提供商。</p>
+			<p>公司现有产品2900余种，涵盖核电站、核工业、核退役、环保、科研、钢铁、海关、军队、地质、核应急、辐射安全和防护、出入境检验检疫、核医学及保健物理等19个行业。</p>
+			<p>公司是美国、英国、德国、白俄罗斯、法国等十几家国际著名核辐射测量仪、系统生产商在中国的独家代理。公司在北京密云有5000m<sup>2</sup>的研发、生产集成基地，并具有多项专利。 </p>
+	<p>公司具有CMC认证，可以提供第三方检测服务！</p>
+			<p>作为国内最大的放射性测量仪器供应商之一，卡迪诺科技（北京）有限公司将通过完善的销售网络、优秀的售前售后支持和技术服务体系，继续为广大客户提供优质的服务。</p>
+		</div>
+		<div class="clearfix"></div>
+		</div>
+	</div>
+	<div id="footer">
+		<span>版权所有：卡迪诺科技贸易（北京）有限公司 & 卡迪诺科技（北京）有限公司 地址：北京市东城区北三环东路36号环球贸易中心B座810室</span>
+	</div>
+	
+	<script>
+	$(document).ready(function(){
+		$(".btlbr").click(function(){
+			$(".kadinuo").load("btlbr.html .kadinuo");
+			return false;
+		});
+	})
+	</script>
+</body>
+</html>
